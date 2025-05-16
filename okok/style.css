@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet"');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  border: 5px solid black;
+  height: 100vh;
+  background-color: #F5FAFF;
+}
+#lewo-gora{
+  display: flex;
+  width: 100%;
+  height: 22%;
+}
+#gora-lewo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 76%;
+  height: 100%;
+}
+#kwadrat0{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  width: 99%;
+  height: 95%;
+  gap: 57px;
+}
+#kwadrat0 > div{
+  font-family: "Nunito";
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17%;
+  height: 70%;
+  color: white;
+  background-color: #0B8673;
+
+}
+#kwadrat0 > img{
+  width: 150px;
+  height: 150px;
+}
+#prawo-gora{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 101%;
+}
+#napis{
+  font-size: large;
+  font-family: "Nunito";
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+  width: 80%;
+  height: 95%;
+}
+#napis > img{
+  width: 100px;
+  height: 100px;
+}
+#lewo-dol{
+  display: flex;
+  width: 100%;
+  height: 80%;
+}
+#dol-lewo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 193%;
+  height: 100%;
+}
+#kwadrat1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px solid black;
+  width: 99%;
+  height: 95%;
+  gap: 20px;
+}
+#kwadrat1 > p{
+  font-family: "Lilita";
+  font-size: large;
+}
+#kwadrat1 > img{
+  margin: 30px;
+  width: 21%;
+  height: 40%;
+} 
+#kwadrat1 > h1{
+  margin-top: 50px;
+  margin-right: 45%;
+}
+#prawo-dol{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 63.5%;
+  height: 97.5%;
+}
+#kwadrat2{
+  font-family: "Nunito";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  width: 80%;
+  height: 30%;
+}
+#napis2{
+  font-size: x-large;
+  font-family: "Nunito";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 95%;
+}
+#napis2 > img{
+  width: 100px;
+  height: 100px;
+}
+#prawo-srodek{
+  font-size: larger;
+  font-family: "Nunito";
+  display: flex;
+  align-items: center;
+}
+#bas > h1{
+   font-size: 50px;
+  font-weight: bolder;
+  margin-top: 40px;
+}
+#bas{
+
+  font-family: "Nunito";
+  font-weight: bolder;
+  margin-left: 30px;
+  width: 800px;
+}
+#bas3{
+  margin-top: 90px;
+}
+#info{
+  display: flex;
+  flex-direction: column;
+  font-family: "Nunito";
+}
+#info > h3 > img{
+  width: 30px;
+  height: 30px;
+}
+#srodek-lewo{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+#xp{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  height: 90%;
+}
+#xp > #gora{
+  text-align: center;
+  display: flex;
+  border: 3px solid black;
+  width: 100%;
+  height: 20%;
+}
+#xp > #gora > h3{
+  font-family: "Nunito";
+  font-size: 25px;
+  align-self: center;
+  width: 100%;
+  letter-spacing: 1px;
+}
+#xp > #srodek-dol-lewo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  background-color: black;
+  color: white;
+}
+#srodek-dol-lewo1{
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style-type: "-";
+  width: 80%;
+  height: 100%;
+  padding: 15px;
+  word-wrap: break-word;
+}
+#srodek-dol-lewo1 > li{
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+#kontaktuj{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 40%;
+  height: 90%;
+}
+#kontaktuj > #gora2{
+  display: flex;
+  width: 100%;
+  height: 20%;
+  background-color: black;
+}
+#kontaktuj > #gora2 > h3{
+  font-family: "Nunito";
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-left: 15px;
+}
+#kontaktuj > #srodek-dol-lewo2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 3px solid black;
+  height: 80%;
+  background-color: white;
+}
+#gora2 > h3 > img{
+  filter: brightness(0) invert(1);
+  width: 40px;
+  height: 40px;
+}
+#srodek-dol-lewo2 > input#x{
+  width: 60%;
+  height: 20%;
+  margin-left: 20px;
+  font-size: 25px;
+}
+#srodek-dol-lewo2 > input#z{
+  width: 90%;
+  height: 40%;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
